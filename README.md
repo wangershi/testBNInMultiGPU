@@ -29,5 +29,5 @@ moving mean = [0.3 0.3 0.3]
 moving variance = [0.79999995 0.79999995 0.79999995]
 ```
 
-## blog writen by Chinese
+## blog writen in Chinese
 [[TensorFlow]Batch Normalization在单机多卡上的一些实验](https://zhuanlan.zhihu.com/p/69267784)
