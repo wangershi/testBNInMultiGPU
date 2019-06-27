@@ -104,7 +104,7 @@ def syncBatchNorm(inputs,
 			'''
 				the same with moving_mean and moving_var
 			'''
-			outputs = tf.nn.batch_normalization(inputs, moving_mean, moving_var, gamma, beta, epsilon)
+			outputs = tf.nn.batch_normalization(inputs, moving_mean, moving_var, beta, gamma, epsilon)
 			
 			# use the default tensor, this code will not update moving_mean and moving_var
 			# for batch_mean+(moving_mean-batch_mean)*momentum = moving_mean
