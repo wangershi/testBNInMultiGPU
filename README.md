@@ -1,5 +1,6 @@
 # testBNInMultiGPU
 test Batch Normalization in multi GPU
+syncBatchNorm in validSyncBN.py is most robust.
 
 ## result
 testBNInSingleGPU():
